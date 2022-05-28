@@ -1,0 +1,54 @@
+Baixar o git bash
+	-https://git-scm.com/downloads 
+	-windows - selecione a plataforma (32 ou 64 bits)
+	-Marcar selectores git bash here, git gui.
+
+Abrir o git bash 
+
+Fazer Login no GitHub ou criar conta se não tiver.
+https://github.com/login
+
+Configurar o git bash (geralmente só uma vez)
+	-configurar nome de usuario
+		- git config --global user.name"nomedoUsuario"(GitHub-FernandoALopes92)
+		- git config --global user.name (ver nome do usuario)
+	-configurar email de usuario
+		- git config --global user.email "usuario@gmail.com"(mesmo email do GitHub)
+		- git config --global user.email(ver email do usuario)
+
+Criar repositório no GitHub
+
+criar .git 
+	- git init
+
+referenciar repositorio remoto no repositorio local
+	-git remote add origin https://github.com/FernandoALopes92/Desenvolvimento_Web.git
+
+
+git status - ver status dos arquivos
+	Em vermelho - pasta a subir
+	em verde - arquivos foram adicionados e podem ser commitados.
+
+git add . - prepara arquivos para subir no git hub
+
+git commit -m "Mensagem" - adiciona mensagem para evidenciar o commit
+git push - subir arquivos para o GitHub
+
+git push --set-upstream origin master - A primeira vez que fomos subir porque estamos na master
+
+colocar senha.
+
+verificar no GitHub se subiu os arquivos.
+
+
+
+	
+
+
+
+
+
+
+
+
+
