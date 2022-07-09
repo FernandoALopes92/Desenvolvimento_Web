@@ -1,0 +1,15 @@
+.container{
+    margin-top: 20px;
+    width: 80%;
+    border: 1px double darkblue;
+    
+}
+
+
+.containerDados{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;  
+    
+}
